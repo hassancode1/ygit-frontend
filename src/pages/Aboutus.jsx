@@ -1,6 +1,6 @@
 import React from 'react'
 import Aboutimg from "../assets/steplogo.svg"
-import Icon from "../assets/icon.svg"
+import Icon from "../assets/Icon.svg"
 const Aboutus = () => {
   return (
     <div className='bg-aboutBg mt-32 mb-9 px-4 py-4 flex justify-center items-center flex-col text-center' id='aboutus'>
@@ -11,7 +11,7 @@ const Aboutus = () => {
         </div>
         <div className="bg-active text-white px-9 py-2 mt-6 rounded-md gap-3 flex md: text-center">
         <h2>  Apply here</h2>
-          <img src={Icon} alt='logo'/>
+          <img src={Icon} alt='right'/>
         </div>
     </div>
   )
